@@ -6,5 +6,14 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Quote.create(saying: 'Work like there is someone working twenty-four hours a day to take it all away from you.', author: 'Mark Cuban')
-Quote.create(saying: 'You\'re better off with a kick-ass half than a half-assed whole.', author: 'David Heinemeier Hansson')
+Quote.create(
+  saying: 'Work like there is someone working twenty-four hours a day to take it all away from you.', 
+  author: 'Mark Cuban')
+
+Quote.create(
+  saying: 'You\'re better off with a kick-ass half than a half-assed whole.',
+  author: 'David Heinemeier Hansson')
+
+Quote.create(
+  saying: 'If I could drink only one wine, it would be Champagne.',
+  author: 'Gary Vaynerchuk')
