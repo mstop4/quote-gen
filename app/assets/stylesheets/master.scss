@@ -50,6 +50,10 @@ header {
   text-decoration: none;
 }
 
+.modal {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .next-quote {
   font-family: 'ostrich_sansheavy';
   color:#f84342;
@@ -66,4 +70,14 @@ header {
 .about {
   font-family: 'ostrich_sansheavy';
   font-size: 36px;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
 }
