@@ -1,3 +1,14 @@
 // Place all the styles related to the quotes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans&display=swap');
+.quote {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+}
+
+.quote footer {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+}
